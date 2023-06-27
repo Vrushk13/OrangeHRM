@@ -1,0 +1,37 @@
+﻿Sr. No.,Test Case ID,Test Case Scenario,Test Case,Test Case Steps,Test Data,Expected Result,,Actual Result,Status
+1,TC001,Verify the URL,Verify the URL ,1. Enter the URL,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,User Should Redirected to the login functionality,,User is redirected to the login functionality,Pass
+2,TC002,Verify the Username Functionality,Verify the Username  TextBox,1.Click on the Username TextBox,,Cusrsor Should be blinked,,Cursor is blinking,Pass
+3,,,Verify the Watermark text in Username  TextBox Field,,,Watermark should be shown in the field,,Watermark is shown in the field,Pass
+4,,,Verify the Username textfield ,1.Click on the Username TextBox,,Usename textbox should be red after click on the field,,Usename textbox is red after click on the field,Pass
+5,,,Verify the Username Icon and the Username word,,,Icon Should be shown with proper spelling of Username,,Icon is shown with proper spelling of Username,Pass
+6,,,"Verify the username field it is accepting the character , Numbers and the special Symbol",1. Click on the Username Textfield. 2. Enter the username ,,It should Accept the all the data which is entered by the user,,It is Accepting the data,Pass
+7,TC003,Verify the Password Functionality,Verify the Password Textbox,1. Click on the password Textbox,,Cusrsor Should be blinked,,Cursor is blinking,Pass
+8,,,Verify the Watermark text in Password  TextBox Field,,,Watermark should be shown in the field,,Watermark is shown in the field,pass
+9,,,Verify the Password textfield.,1.Click on the Password TextBox,,Password textbox should be red after click on the field,,Password textbox is red after click on the field,  Pass
+10,,,Verify the Password key and the Password  word,,,Icon Should be shown with proper spelling of Password,,Icon is shown with proper spelling of Password .,Pass
+11,,,"Verify the Password field it is accepting the character , Numbers and the special Symbol",1. Click on the Password Textfield. 2. Enter the Password ,,It should Accept the all the data which is entered by the user,,It is Accepting the data,Pass
+12,TC004,Verify the Login Button Functionality,Verify the Login button is clickable or not,1. Click on the Login Button,,It should be clickable,,It is clickable,Pass
+13,,,Verify that Enter Valid Username And Valid Password,1.Click on the Username .2. Enter the Valid username And Passowrd 3. Click on the Login Button,"Username : Admin
+Password : admin123",It should redirected to home Page,,It is redirecting to home page,Pass
+14,,,Verify that Enter Valid Username And Inalid Password,1.Click on the Username .2. Enter the Valid username And Invalid Passowrd 3. Click on the Login Button,"Username : Admin
+Password : admin1",It should not  redirected to home Page,,It is not redirecting to home page,Pass
+15,,,Verify that Enter Invalid Username And Valid Password,1.Click on the Username .2. Enter the Valid username And Invalid Passowrd 3. Click on the Login Button,"Username : Adminn
+Password : admin123",It should not  redirected to home Page,,It is not redirecting to home page,Pass
+16,,,Verify that Enter Invalid Username And Invalid Password ,1.Click on the Username .2. Enter the Inalid username And Invalid Passowrd 3. Click on the Login Button,"Username : Adminn
+Password : admin123",It should not  redirected to home Page,,It is not redirecting to home page,Pass
+17,,,Verify that Kepp Both Username And Password Blank,1. Click on the Login Button,,It should not  redirected to home Page,,It is not redirecting to home page,Pass
+18,TC005,Verify the Forgot Password Functionality,Verify the forgot Password functionality,"1. Click on the ""Forgot Password"" functionality.",,"It should Redirected to the ""Reset Password"" functionality",,"It is Redirecting to the ""Reset Password"" functionality",Pass
+19,,,Verify the reset password functionality,1.Check the message dislayed on the Page,,"The message should be display as""Please enter your username to identify your account to reset your password""",,"The message is display as ""Please enter your username to identify your account to reset your password""",Pass
+20,,,Verify the Username Icon and the Username word,,,Icon should be proper with correct Spelling,,Icon is displaying Correctly,Pass
+21,,,Verify the Username textfield Watermark,,,It should display username watermark in the username textfield,,It is displaying username watermark in the username textfield,pass
+22,,,Verify the username Textfield is Heighlight or Not,"1. Click on the ""usename textfield""",,It should be Heighlightable after clicking on the textbox.,,It is Heighlightable after clicking on the textbox,pass
+23,,,Verify that the Cursor on the Username Textbox  is blinking or not ,1. Click on the Username Textfield. ,,The cursor should be blinking after click on ,,The cursois blinking after click on ,pass
+24,,,Verify that It is accepting the the character or not,1.Click on the Username TextBox. 2. Enter the character,,It should accept the character.,,It is accepting the chracter,pass
+25,,,Verify that It is accepting the the numbers or not,1.Click on the Username TextBox. 2. Enter the Numbers,,It should accept the numbers,,It is accepting the numbers,pass
+26,,,Verify that is accepting the Special symbol or not,1.Click on the Username TextBox. 2. Enter the Numbers,,It should accept the numbers,,It is accepting the numbers,pass
+27,,,"Verify that ""Cancel"" button is Clickable or not",1.Click on the cancel button,,It should be clickable,,It is Clickable,Pass
+28,,,"Verify that ""reset password"" button is clickable or not","1. Click on the ""Reset Password"" Button",,It should be Clickable,,It is Clickable,Pass
+29,,,Verify that  enter the valid username is accepting or not,1. Click on the username field. 2. enter the valid username,,It should accept the username and redirected to another page,,It should accept the username and redirected to another page,pass
+30,,,Verify that Keeping Username Field blank ,,,"It should show Error Message that ""required"" and the field is heilighted In red colour",,"It is showing Error Message that ""required"" and the field is heilighted In red colour",Pass
+31,,,Verify that entering Invalid Username,1.Click on the username textfield. 2. Enter Invalid username,Username : admin123,It should not send mail to the Gmail which is linked.,,It is not sending mail to the Gmail which is linked.,Pass
+32,,,"Verify that ""cancel "" button is clickable or not","1. click on the ""cancel"" button",,"When Click on the ""cancel"" button then it should redirected to the Login page",,"When Click on the ""cancel"" button then it is redirecting to the Login page",Pass
